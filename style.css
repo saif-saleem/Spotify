@@ -1,0 +1,305 @@
+.main-body{
+    display: flex;
+    ;
+}
+
+
+.left-section{
+    width: 21%;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-section{
+    width: 79%;
+    /* background-color: aqua; */
+}
+.sop-logo{
+   padding: 20px; 
+   width: 60%;    position: relative;
+   left: 13px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+
+.dibba1{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    position: relative;
+    top: -83px;
+}
+.dibba2{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    position: relative;
+    top: -83px;
+}
+.dibba4{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    position: relative;
+    top: -85px;
+}
+.dibba3{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    position: relative;
+    top: -83px;
+}
+
+.subdib1{
+    display: flex;
+    height: 60px;
+    margin-bottom: 0px;
+    flex-direction: row;
+    align-items: center;
+}
+.subdib2{
+    display: flex;
+    height: 60px;
+    margin-bottom: 0px;
+    flex-direction: row;
+    align-items: center;
+}
+.subdib3{
+    display: flex;
+    height: 60px;
+    margin-bottom: 0px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.right-section{
+    background: linear-gradient(180deg, #222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 85.45%, rgba(18, 18, 18, 0.00) 100%);
+    
+}
+
+.profile-bg{
+    border-radius: 33px;
+background: #0A0A0A;
+}
+
+.leftdibba{
+    width: 87%;
+    position: relative;
+    left: 43px;
+}
+
+.rightdibba{
+    width: 13%;
+    color: #B3B3B3;
+font-family: DM Sans;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.rectangle1>p{
+    color: #FFF;
+font-family: DM Sans;
+font-size: 38px;
+font-style: normal;
+
+}
+
+.mycard{
+    border-radius: 4px;
+    background: #303030;
+    width: 320px;
+    height: 80px;
+    flex-shrink: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+
+}
+.mycard>p{
+    color: #FFF;
+font-family: DM Sans;
+
+font-style: normal;
+
+line-height: normal;
+letter-spacing: -0.4px;
+position: relative;
+top: 36%;
+left: 20px;
+}
+
+.bgr{
+    height: 100%;
+    width: 24%;
+}
+
+.bgr1{
+    border-radius: 4px 0px 0px 4px;
+background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+}
+
+.bgr2{
+    border-radius: 4px 0px 0px 4px;
+background: linear-gradient(180deg, rgba(255, 0, 0, 0.31) 0%, rgba(166, 0, 0, 0.00) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+
+.rectangle2>p{
+    color: #FFF;
+font-family: DM Sans;
+font-size: 29px;
+font-style: normal;
+
+}
+
+.mycd{
+    width: 220px;
+    height: 280px;
+    flex-shrink: 0;
+    background: #181818;
+    margin-right: 20px;
+}
+
+.mycd>img{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    margin: auto;
+}
+
+.foot{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.foot1{
+    height: 100px;
+    display: flex;
+    background-color: #181818;
+}
+
+.foot2{
+   height: 25px;
+    background-color: #1ED760;;
+}
+
+.tx1{
+    color: #FFF;
+font-family: DM Sans;
+font-size: 18px;
+
+letter-spacing: -0.9px;
+position: relative;
+top: 8px;
+}
+
+.tx2{
+    color: #B3B3B3;
+font-family: DM Sans;
+font-size: 15px;
+
+letter-spacing: -0.75px;
+position: relative;
+bottom: 10px;
+}
+
+.part1-1{
+    height: 60px;
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.part2{
+    display: flex;
+    flex-direction: column;
+}
+
+.iconbar{
+    top: 10px;
+    position: relative;
+    left: 80%;
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.iconbar2>span{
+    color: #C4C4C4;
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.56px;
+}
+
+.iconbar2{
+    display: flex;
+}
+
+.range1{
+    top: 20px;
+    height: 5px;
+    border-radius: 2.5px;
+    background: #535353;
+    position: relative;
+    left: 304px;
+    width: 500px;
+}
+
+.range2{
+    height: 100%;
+    width: 75%;
+    border-radius: 2.5px;
+background: #C4C4C4;
+}
+
+.part3{
+    position: relative;
+    left: 595px;
+    top: 55px;
+    height: 20px;
+}
+
+.ft{
+    color: #000;
+font-family: DM Sans;
+font-size: 17px;
+font-style: normal;
+
+}
+
+.foot2>div{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: -26px;
+}
+
+
+.subdib3:hover
+{
+    border-radius: 6px;
+background-color: #282828;
+}
+.subdib2:hover
+{
+    border-radius: 6px;
+background-color: #282828;
+}
+.subdib1:hover
+{
+    border-radius: 6px;
+background-color: #282828;
+}

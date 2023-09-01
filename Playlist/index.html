@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,400&family=Nunito&display=swap');
+      </style>
+    <title>Playlist</title>
+</head>
+<body>
+    
+<div class="mainbody">
+    <div class="leftsection">
+        <div class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="131" height="40" viewBox="0 0 131 40" fill="none">
+                <g clip-path="url(#clip0_4978_34)">
+                  <path d="M0.924072 20.1176C0.924072 30.9412 9.70361 39.8823 20.3315 39.8823C30.9593 39.8823 39.7389 30.9412 39.7389 20.1176C39.7389 9.29411 30.9593 0.470581 20.3315 0.470581C9.70361 0.470581 0.924072 9.29411 0.924072 20.1176ZM27.4937 29.2941C22.9884 26.4706 17.2124 25.7647 10.5123 27.2941C8.89497 27.5294 8.66393 25.1765 10.0502 24.9412C17.4435 23.1765 23.6816 24 28.7645 27.1765C30.0352 28 28.7645 30 27.4937 29.2941ZM29.4576 24C24.2592 20.7059 16.2883 19.7647 10.1657 21.6471C8.20185 22.2353 7.50873 19.1765 9.35705 18.7059C16.4038 16.5882 25.0678 17.6471 31.0749 21.4118C32.6921 22.4706 31.0749 25.0588 29.4576 24ZM9.24153 15.6471C7.27769 16.3529 6.00696 12.9412 8.20185 12.1176C15.0175 9.99999 26.5696 10.3529 33.7318 14.7059C35.6957 15.7647 33.8474 19.0588 31.768 17.8823C25.5299 14.1176 15.1331 13.7647 9.24153 15.6471ZM53.0237 26.3529C51.0599 26.3529 49.2115 25.6471 47.5943 24C47.4787 24 47.4787 24.1176 47.4787 24.1176L45.6304 26.3529C45.5149 26.4706 45.5149 26.5882 45.6304 26.7059C47.7098 28.5882 50.2512 29.5294 53.0237 29.5294C56.9514 29.5294 59.3773 27.2941 59.3773 24C59.3773 21.1765 57.6445 19.6471 53.6013 18.5882C50.2512 17.7647 49.6736 17.1765 49.6736 16C49.6736 14.8235 50.8288 14.1176 52.3306 14.1176C53.8324 14.1176 55.2186 14.7059 56.8359 15.8823C56.8359 15.8823 56.9514 16 57.0669 16C57.1824 16 57.1824 15.8823 57.1824 15.8823L58.7997 13.5294C58.9153 13.4118 58.9153 13.4118 58.7997 13.2941C56.9514 11.7647 54.7565 10.9412 52.3306 10.9412C48.7495 10.9412 46.208 13.1765 46.208 16.3529C46.208 19.7647 48.5184 20.8235 52.2151 21.7647C55.4496 22.4706 55.9117 23.1765 55.9117 24.3529C55.9117 25.6471 54.7565 26.3529 53.0237 26.3529ZM63.9981 17.2941V15.7647C63.9981 15.6471 63.8826 15.5294 63.7671 15.5294H60.7636C60.6481 15.5294 60.5325 15.6471 60.5325 15.7647V33.0588C60.5325 33.1765 60.6481 33.2941 60.7636 33.2941H63.7671C63.8826 33.2941 63.9981 33.1765 63.9981 33.0588V27.6471C65.1533 28.9412 66.4241 29.5294 68.1569 29.5294C71.2759 29.5294 74.395 27.0588 74.395 22.3529C74.395 17.6471 71.2759 15.2941 68.1569 15.2941C66.4241 15.2941 65.1533 15.8823 63.9981 17.2941ZM67.4638 26.4706C65.3844 26.4706 63.8826 24.7059 63.8826 22.3529C63.8826 20 65.3844 18.3529 67.4638 18.3529C69.5431 18.3529 70.9294 20 70.9294 22.3529C70.9294 24.7059 69.5431 26.4706 67.4638 26.4706ZM75.3191 22.4706C75.3191 26.4706 78.4382 29.5294 82.4814 29.5294C86.5246 29.5294 89.6436 26.3529 89.6436 22.3529C89.6436 18.3529 86.6401 15.2941 82.5969 15.2941C78.5537 15.2941 75.3191 18.4706 75.3191 22.4706ZM78.7847 22.3529C78.7847 20 80.2865 18.3529 82.4814 18.3529C84.6763 18.3529 86.2936 20.1176 86.2936 22.4706C86.2936 24.8235 84.7918 26.4706 82.5969 26.4706C80.402 26.4706 78.7847 24.7059 78.7847 22.3529ZM94.9576 15.5294V12.1176C94.9576 12 94.9576 11.8823 94.8421 11.8823H91.8385C91.723 11.8823 91.6075 12 91.6075 12.1176V15.5294H90.1057C89.9902 15.5294 89.8747 15.6471 89.8747 15.7647V18.3529C89.8747 18.4706 89.9902 18.5882 90.1057 18.5882H91.6075V25.4118C91.6075 28.1176 92.8782 29.5294 95.5352 29.5294C96.5749 29.5294 97.6145 29.2941 98.4232 28.8235C98.5387 28.8235 98.5387 28.7059 98.5387 28.5882V26.1176C98.5387 26 98.5387 25.8823 98.4232 25.8823H98.1921C97.6145 26.2353 96.9214 26.3529 96.3438 26.3529C95.4197 26.3529 94.9576 25.8823 94.9576 24.9412V18.5882H98.4232C98.5387 18.5882 98.6542 18.4706 98.6542 18.3529V15.7647C98.6542 15.6471 98.5387 15.5294 98.4232 15.5294H94.9576ZM109.86 15.1765C109.86 13.8823 110.322 13.4118 111.361 13.4118C111.939 13.4118 112.517 13.4118 113.094 13.6471H113.21C113.21 13.6471 113.325 13.5294 113.325 13.4118V10.9412C113.325 10.8235 113.325 10.7059 113.21 10.7059C112.632 10.4706 111.824 10.3529 110.668 10.3529C107.896 10.3529 106.51 12 106.51 14.9412V15.5294H105.008C104.892 15.5294 104.777 15.6471 104.777 15.7647V18.3529C104.777 18.4706 104.892 18.5882 105.008 18.5882H106.51V29.0588C106.51 29.1765 106.625 29.2941 106.741 29.2941H109.744C109.86 29.2941 109.86 29.1765 109.86 29.0588V18.5882H112.748L117.022 29.0588C116.56 30.1176 116.098 30.3529 115.405 30.3529C114.827 30.3529 114.249 30.2353 113.672 29.8823H113.556L113.441 30L112.401 32.2353C112.401 32.3529 112.401 32.5882 112.517 32.5882C113.556 33.1765 114.481 33.4118 115.636 33.4118C117.831 33.4118 119.101 32.3529 120.141 29.5294L125.339 15.8823V15.6471C125.339 15.5294 125.224 15.5294 125.108 15.5294H121.989C121.874 15.5294 121.874 15.6471 121.874 15.7647L118.639 24.9412L115.174 15.7647C115.174 15.6471 115.058 15.5294 114.943 15.5294H109.86V15.1765ZM100.272 15.5294C100.156 15.5294 100.04 15.6471 100.04 15.7647V29.0588C100.04 29.1765 100.156 29.2941 100.272 29.2941H103.275C103.391 29.2941 103.391 29.1765 103.391 29.0588V15.7647C103.391 15.6471 103.391 15.5294 103.275 15.5294H100.272ZM99.5784 11.6471C99.5784 12.8235 100.618 13.8823 101.773 13.8823C102.928 13.8823 103.853 12.8235 103.853 11.6471C103.853 10.4706 102.928 9.5294 101.773 9.5294C100.618 9.5294 99.5784 10.4706 99.5784 11.6471ZM127.881 19.7647C129.036 19.7647 130.076 18.8235 130.076 17.6471C130.076 16.4706 129.036 15.5294 127.881 15.5294C126.726 15.5294 125.801 16.4706 125.801 17.6471C125.801 18.8235 126.726 19.7647 127.881 19.7647ZM127.881 15.7647C128.921 15.7647 129.845 16.5882 129.845 17.6471C129.845 18.7059 128.921 19.5294 127.881 19.5294C126.841 19.5294 126.033 18.7059 126.033 17.6471C126.033 16.5882 126.841 15.7647 127.881 15.7647ZM128.343 17.8823C128.689 17.7647 128.921 17.5294 128.921 17.1765C128.921 16.7059 128.458 16.4706 127.996 16.4706H127.072V18.7059H127.534V18H127.996L128.458 18.7059H129.036L128.343 17.8823ZM127.996 16.8235C128.227 16.8235 128.458 16.9412 128.458 17.1765C128.458 17.4118 128.227 17.5294 127.996 17.5294H127.534V16.8235H127.996Z" fill="white"/>
+                </g>
+                <defs>
+                  <clipPath id="clip0_4978_34">
+                    <rect width="131" height="40" fill="white"/>
+                  </clipPath>
+                </defs>
+              </svg>
+     
+     
+            </div>
+
+
+        <div class="dibba1">
+
+
+          <a href="">
+        <div class="home">
+<svg style="position: relative;
+left: 20px;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <path d="M21 21.7381H14V14.7382H9.99998V21.7381H3V6.95245L12 1.71436L21 6.91673V21.7381Z" fill="white"/>
+</svg>
+<p style="position: relative;
+left: 20px;">Home</p>
+
+        </div>
+      </a>
+
+      <a href="">
+        <div class="search">
+
+            <svg style="position: relative;
+            left: 20px;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.3929 16.3096L20.7858 21.4643L20.0239 22.1191L15.6191 16.9643C14.1032 18.1151 12.3968 18.6905 10.5 18.6905C9.34917 18.6905 8.24798 18.4663 7.19642 18.0179C6.14486 17.5695 5.24009 16.9663 4.48213 16.2084C3.72416 15.4505 3.12098 14.5457 2.67261 13.4941C2.22423 12.4425 2.00003 11.3413 2 10.1905C1.99997 9.03975 2.22417 7.93857 2.67261 6.88697C3.12105 5.83538 3.72422 4.93061 4.48213 4.17268C5.24003 3.41474 6.1448 2.81157 7.19642 2.36316C8.24805 1.91476 9.34924 1.69055 10.5 1.69055C11.6507 1.69055 12.7519 1.91476 13.8035 2.36316C14.8552 2.81157 15.7599 3.41474 16.5178 4.17268C17.2758 4.93061 17.8789 5.83538 18.3274 6.88697C18.7758 7.93857 19 9.03975 19 10.1905C19 11.3731 18.7698 12.4921 18.3095 13.5477C17.8492 14.6032 17.2103 15.5239 16.3928 16.3096L16.3929 16.3096ZM10.5001 17.6905C11.8572 17.6905 13.1112 17.3552 14.262 16.6845C15.4128 16.0138 16.3235 15.1031 16.9941 13.9523C17.6648 12.8016 18.0001 11.5476 18.0001 10.1904C18.0002 8.83329 17.6648 7.57932 16.9941 6.42854C16.3235 5.27775 15.4127 4.36705 14.262 3.69643C13.1112 3.0258 11.8573 2.69049 10.5001 2.69049C9.14289 2.69049 7.88892 3.0258 6.73817 3.69643C5.58742 4.36705 4.67672 5.27775 4.00606 6.42854C3.33541 7.57932 3.00009 8.83329 3.00013 10.1904C3.00016 11.5476 3.33547 12.8016 4.00606 13.9523C4.67666 15.1031 5.58736 16.0138 6.73817 16.6845C7.88898 17.3552 9.14295 17.6905 10.5001 17.6905Z" fill="#B3B3B3"/>
+              </svg>
+              <p style="position: relative;
+              left: 20px;">Search</p>
+        </div>
+      </a>
+
+      <a href="">
+        <div class="lib">
+            <svg style="position: relative;
+            left: 20px;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M13.6547 3.83329L21.4523 21.3452L20.5476 21.7499L12.75 4.23805L13.6547 3.83329ZM3 21.738V3.73804H4.00003V21.738H3ZM9 21.738V3.73804H10V21.738H9Z" fill="#B3B3B3"/>
+              </svg>
+              <p style="position: relative;
+              left: 20px;">Library</p>
+        </div>
+      </a>
+    </div>
+
+
+    <div class="dibba2">
+
+        
+        <p style="color: #B3B3B3;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;">PLAYLISTS</p>
+
+
+        <div class="createplay">
+            <div class="dib-bg bg1">
+          <img style="height: 28px;
+          width: 33px;" src="./Frame.svg" alt="">
+        </div>
+        <p style="color: white; padding-left: 10px;">Create Playlist</p>
+    </div>
+
+
+        <div class="Liked">
+            <div class="dbg2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <rect width="32" height="32" fill="url(#paint0_linear_4978_7)"/>
+                    <path d="M21.7971 10.727C21.0807 10.0042 20.1189 9.57705 19.1024 9.53019C18.0859 9.48333 17.0889 9.82019 16.3091 10.474C16.2194 10.5417 16.1113 10.5807 15.9991 10.586C15.8861 10.5827 15.7772 10.5434 15.6881 10.474C14.9086 9.81982 13.9117 9.48271 12.8952 9.52957C11.8787 9.57644 10.917 10.0039 10.2011 10.727C9.43108 11.497 9.00708 12.521 9.00708 13.61C9.00708 14.699 9.43108 15.723 10.1751 16.465L14.6371 21.688C14.8052 21.8852 15.0142 22.0436 15.2495 22.1522C15.4848 22.2609 15.7409 22.3171 16.0001 22.3171C16.2593 22.3171 16.5154 22.2609 16.7507 22.1522C16.986 22.0436 17.1949 21.8852 17.3631 21.688L21.7981 16.493C22.1779 16.1153 22.4792 15.666 22.6843 15.1711C22.8894 14.6763 22.9944 14.1457 22.9931 13.61C22.9939 13.0743 22.8887 12.5437 22.6834 12.0489C22.4782 11.554 22.1769 11.1048 21.7971 10.727Z" fill="#C4C4C4"/>
+                    <defs>
+                      <linearGradient id="paint0_linear_4978_7" x1="0" y1="0" x2="27.5" y2="32" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#27148F"/>
+                        <stop offset="0.65219" stop-color="#605F9E"/>
+                        <stop offset="1" stop-color="#86979A"/>
+                      </linearGradient>
+                    </defs>
+                  </svg>
+            </div>
+        <p style="color: white; padding-left: 10px;">Liked Songs</p>
+        </div>
+
+
+    </div>
+
+
+    <div class="dibba3">
+
+        <img style="    padding-top: 445px;
+        box-sizing: border-box;" src="./album art.svg" alt="">
+    </div>
+
+
+    </div>
+
+
+    <div class="rightsection">
+    
+        <div class="upper">
+         
+            <div class="subupper">
+                
+                <img src="./스크린샷 2021-03-16 오후 4.04 2.svg" alt="">
+            
+             <div class="sub1">
+                <p class="hd1">PLAYLIST</p>
+                <p class="hd2">Pop Right Now</p>
+                <p class="hd3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="hd4"><span class="d1">Spotify</span> <span class="d2"><svg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
+                    <circle opacity="0.7" cx="2" cy="2" r="2" fill="white"/>
+                  </svg>860,305 likes</span> <span class="d3"><svg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
+                    <circle opacity="0.7" cx="2" cy="2" r="2" fill="white"/>
+                  </svg>100 songs, 5 hr 5 min</span></p>
+             </div>
+
+            </div>
+
+            <div class="lower1">
+             
+                <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">
+                    <path d="M0 27.5C0 12.3122 12.3122 0 27.5 0C42.6878 0 55 12.3122 55 27.5C55 42.6878 42.6878 55 27.5 55C12.3122 55 0 42.6878 0 27.5Z" fill="#1DB954"/>
+                    <path d="M39 27.5L21 17V38L39 27.5Z" fill="white"/>
+                  </svg>
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none">
+                    <path opacity="0.7" d="M22.3027 13.4342C19.3015 10.433 14.4355 10.433 11.4342 13.4342V13.4342C8.433 16.4355 8.433 21.3015 11.4342 24.3027L22.3735 35.242C22.9957 35.8641 24.0043 35.8641 24.6265 35.242L35.5658 24.3027C38.567 21.3015 38.567 16.4355 35.5658 13.4342V13.4342C32.5645 10.433 27.6985 10.433 24.6973 13.4342L23.5 14.6315L22.3027 13.4342Z" stroke="white" stroke-linejoin="round"/>
+                  </svg>
+
+                  <svg style="opacity: 0.7;" xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none">
+                    <g opacity="0.7">
+                      <circle cx="13.125" cy="23.125" r="2.125" fill="white"/>
+                      <circle cx="23.375" cy="23.125" r="2.125" fill="white"/>
+                      <circle cx="33.625" cy="23.125" r="2.125" fill="white"/>
+                    </g>
+                  </svg>
+
+            </div>
+
+
+<div class="title">
+    <div style="display: flex;     justify-content: space-around;">
+    <span style="color: white;
+    position: relative; opacity: 0.7;
+    right: 155px;"># TITLE</span>
+    <span style="color: white;
+        position: relative; opacity: 0.7;
+    right: 101px;">ALBUM</span>
+    <span style="color: white;    position: relative;
+
+    right: 113px; opacity: 0.7;">DATE ADDED</span>
+</div>
+
+<div class="line"></div>
+</div>
+
+ </div>
+       
+       
+        <div class="lower">
+             <a href="">
+            <div class="song song1">
+
+                <div style="display: flex;     align-items: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="14" viewBox="0 0 10 14" fill="none">
+                    <path d="M9.60205 7.04145L0.19764 13.1395L0.19764 0.943375L9.60205 7.04145Z" fill="white"/>
+                  </svg>
+
+                  <div class="s1bg">
+                    <img style="width: 100%;
+                    height: 100%;" src="./s1.jpg" alt="">
+                  </div>
+
+                  <div class="songinfo">
+                    <p class="sn">We're Good</p>
+                    <p class="an">Dua Lipa</p>
+                  </div>
+
+                </div>
+
+
+                  <!-- <div style="display: flex;">  -->
+                <div class="publ">
+                    <p>Future Nostalgia (The Moonlight Edition)</p>
+                </div>
+
+                <div class="han">
+                    <span>일 전</span>
+                </div>
+
+                <div class="dur">
+                    <svg style="    position: relative;
+                    right: 10px;" xmlns="http://www.w3.org/2000/svg" width="22" height="24" viewBox="0 0 22 24" fill="none">
+                        <path opacity="0.7" d="M11.226 6.04065C9.65803 4.87082 7.46757 5.03618 6.09298 6.42813V6.42813C4.58531 7.95484 4.58531 10.41 6.09298 11.9367L6.79076 12.6433L6.78486 12.6493L11.9026 17.8317V17.8317C11.9059 17.8284 11.9112 17.8284 11.9144 17.8317V17.8317L17.0322 12.6493L17.0263 12.6433L17.724 11.9367C19.2317 10.41 19.2317 7.95484 17.7241 6.42813V6.42813C16.3495 5.03618 14.159 4.87082 12.591 6.04065L11.9085 6.54984L11.226 6.04065Z" stroke="white" stroke-linejoin="round"/>
+                      </svg>
+                      <span style="    position: relative;
+                      left: 5px;">2:45</span>
+                      <div class="dot" style="    position: relative;
+                      left: 15px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="4" viewBox="0 0 16 4" fill="none">
+                            <circle cx="1.9541" cy="2" r="1.5" fill="white"/>
+                            <circle cx="8.16504" cy="2" r="1.5" fill="white"/>
+                            <circle cx="14.376" cy="2" r="1.5" fill="white"/>
+                          </svg>
+                      </div>
+                </div>
+            <!-- </div> -->
+
+
+            </div>
+          </a>
+
+          <a href="">
+            <div class="song song1">
+
+                <div style="display: flex;     align-items: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="14" viewBox="0 0 10 14" fill="none">
+                    <path d="M9.60205 7.04145L0.19764 13.1395L0.19764 0.943375L9.60205 7.04145Z" fill="white"/>
+                  </svg>
+
+                  <div class="s1bg">
+                    <img style="width: 100%;
+                    height: 100%;" src="./s1.jpg" alt="">
+                  </div>
+
+                  <div class="songinfo">
+                    <p class="sn">We're Good</p>
+                    <p class="an">Dua Lipa</p>
+                  </div>
+
+                </div>
+
+
+                  <!-- <div style="display: flex;">  -->
+                <div class="publ">
+                    <p>Future Nostalgia (The Moonlight Edition)</p>
+                </div>
+
+                <div class="han">
+                    <span>일 전</span>
+                </div>
+
+                <div class="dur">
+                    <svg style="    position: relative;
+                    right: 10px;" xmlns="http://www.w3.org/2000/svg" width="22" height="24" viewBox="0 0 22 24" fill="none">
+                        <path opacity="0.7" d="M11.226 6.04065C9.65803 4.87082 7.46757 5.03618 6.09298 6.42813V6.42813C4.58531 7.95484 4.58531 10.41 6.09298 11.9367L6.79076 12.6433L6.78486 12.6493L11.9026 17.8317V17.8317C11.9059 17.8284 11.9112 17.8284 11.9144 17.8317V17.8317L17.0322 12.6493L17.0263 12.6433L17.724 11.9367C19.2317 10.41 19.2317 7.95484 17.7241 6.42813V6.42813C16.3495 5.03618 14.159 4.87082 12.591 6.04065L11.9085 6.54984L11.226 6.04065Z" stroke="white" stroke-linejoin="round"/>
+                      </svg>
+                      <span style="    position: relative;
+                      left: 5px;">2:45</span>
+                      <div class="dot" style="    position: relative;
+                      left: 15px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="4" viewBox="0 0 16 4" fill="none">
+                            <circle cx="1.9541" cy="2" r="1.5" fill="white"/>
+                            <circle cx="8.16504" cy="2" r="1.5" fill="white"/>
+                            <circle cx="14.376" cy="2" r="1.5" fill="white"/>
+                          </svg>
+                      </div>
+                </div>
+            <!-- </div> -->
+
+
+            </div>
+          </a>
+
+          <a href="">
+            <div class="song song1">
+
+                <div style="display: flex;     align-items: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="14" viewBox="0 0 10 14" fill="none">
+                    <path d="M9.60205 7.04145L0.19764 13.1395L0.19764 0.943375L9.60205 7.04145Z" fill="white"/>
+                  </svg>
+
+                  <div class="s1bg">
+                    <img style="width: 100%;
+                    height: 100%;" src="./s1.jpg" alt="">
+                  </div>
+
+                  <div class="songinfo">
+                    <p class="sn">We're Good</p>
+                    <p class="an">Dua Lipa</p>
+                  </div>
+
+                </div>
+
+
+                  <!-- <div style="display: flex;">  -->
+                <div class="publ">
+                    <p>Future Nostalgia (The Moonlight Edition)</p>
+                </div>
+
+                <div class="han">
+                    <span>일 전</span>
+                </div>
+
+                <div class="dur">
+                    <svg style="    position: relative;
+                    right: 10px;" xmlns="http://www.w3.org/2000/svg" width="22" height="24" viewBox="0 0 22 24" fill="none">
+                        <path opacity="0.7" d="M11.226 6.04065C9.65803 4.87082 7.46757 5.03618 6.09298 6.42813V6.42813C4.58531 7.95484 4.58531 10.41 6.09298 11.9367L6.79076 12.6433L6.78486 12.6493L11.9026 17.8317V17.8317C11.9059 17.8284 11.9112 17.8284 11.9144 17.8317V17.8317L17.0322 12.6493L17.0263 12.6433L17.724 11.9367C19.2317 10.41 19.2317 7.95484 17.7241 6.42813V6.42813C16.3495 5.03618 14.159 4.87082 12.591 6.04065L11.9085 6.54984L11.226 6.04065Z" stroke="white" stroke-linejoin="round"/>
+                      </svg>
+                      <span style="    position: relative;
+                      left: 5px;">2:45</span>
+                      <div class="dot" style="    position: relative;
+                      left: 15px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="4" viewBox="0 0 16 4" fill="none">
+                            <circle cx="1.9541" cy="2" r="1.5" fill="white"/>
+                            <circle cx="8.16504" cy="2" r="1.5" fill="white"/>
+                            <circle cx="14.376" cy="2" r="1.5" fill="white"/>
+                          </svg>
+                      </div>
+                </div>
+            <!-- </div> -->
+
+
+            </div>
+          </a>
+
+          <a href="">
+            <div class="song song1">
+
+                <div style="display: flex;     align-items: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="14" viewBox="0 0 10 14" fill="none">
+                    <path d="M9.60205 7.04145L0.19764 13.1395L0.19764 0.943375L9.60205 7.04145Z" fill="white"/>
+                  </svg>
+
+                  <div class="s1bg">
+                    <img style="width: 100%;
+                    height: 100%;" src="./s1.jpg" alt="">
+                  </div>
+
+                  <div class="songinfo">
+                    <p class="sn">We're Good</p>
+                    <p class="an">Dua Lipa</p>
+                  </div>
+
+                </div>
+
+
+                  <!-- <div style="display: flex;">  -->
+                <div class="publ">
+                    <p>Future Nostalgia (The Moonlight Edition)</p>
+                </div>
+
+                <div class="han">
+                    <span>일 전</span>
+                </div>
+
+                <div class="dur">
+                    <svg style="    position: relative;
+                    right: 10px;" xmlns="http://www.w3.org/2000/svg" width="22" height="24" viewBox="0 0 22 24" fill="none">
+                        <path opacity="0.7" d="M11.226 6.04065C9.65803 4.87082 7.46757 5.03618 6.09298 6.42813V6.42813C4.58531 7.95484 4.58531 10.41 6.09298 11.9367L6.79076 12.6433L6.78486 12.6493L11.9026 17.8317V17.8317C11.9059 17.8284 11.9112 17.8284 11.9144 17.8317V17.8317L17.0322 12.6493L17.0263 12.6433L17.724 11.9367C19.2317 10.41 19.2317 7.95484 17.7241 6.42813V6.42813C16.3495 5.03618 14.159 4.87082 12.591 6.04065L11.9085 6.54984L11.226 6.04065Z" stroke="white" stroke-linejoin="round"/>
+                      </svg>
+                      <span style="    position: relative;
+                      left: 5px;">2:45</span>
+                      <div class="dot" style="    position: relative;
+                      left: 15px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="4" viewBox="0 0 16 4" fill="none">
+                            <circle cx="1.9541" cy="2" r="1.5" fill="white"/>
+                            <circle cx="8.16504" cy="2" r="1.5" fill="white"/>
+                            <circle cx="14.376" cy="2" r="1.5" fill="white"/>
+                          </svg>
+                      </div>
+                </div>
+            <!-- </div> -->
+
+
+            </div>
+          </a>
+
+          <a href="">
+            <div class="song song1">
+
+                <div style="display: flex;     align-items: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="14" viewBox="0 0 10 14" fill="none">
+                    <path d="M9.60205 7.04145L0.19764 13.1395L0.19764 0.943375L9.60205 7.04145Z" fill="white"/>
+                  </svg>
+
+                  <div class="s1bg">
+                    <img style="width: 100%;
+                    height: 100%;" src="./s1.jpg" alt="">
+                  </div>
+
+                  <div class="songinfo">
+                    <p class="sn">We're Good</p>
+                    <p class="an">Dua Lipa</p>
+                  </div>
+
+                </div>
+
+
+                  <!-- <div style="display: flex;">  -->
+                <div class="publ">
+                    <p>Future Nostalgia (The Moonlight Edition)</p>
+                </div>
+
+                <div class="han">
+                    <span>일 전</span>
+                </div>
+
+                <div class="dur">
+                    <svg style="    position: relative;
+                    right: 10px;" xmlns="http://www.w3.org/2000/svg" width="22" height="24" viewBox="0 0 22 24" fill="none">
+                        <path opacity="0.7" d="M11.226 6.04065C9.65803 4.87082 7.46757 5.03618 6.09298 6.42813V6.42813C4.58531 7.95484 4.58531 10.41 6.09298 11.9367L6.79076 12.6433L6.78486 12.6493L11.9026 17.8317V17.8317C11.9059 17.8284 11.9112 17.8284 11.9144 17.8317V17.8317L17.0322 12.6493L17.0263 12.6433L17.724 11.9367C19.2317 10.41 19.2317 7.95484 17.7241 6.42813V6.42813C16.3495 5.03618 14.159 4.87082 12.591 6.04065L11.9085 6.54984L11.226 6.04065Z" stroke="white" stroke-linejoin="round"/>
+                      </svg>
+                      <span style="    position: relative;
+                      left: 5px;">2:45</span>
+                      <div class="dot" style="    position: relative;
+                      left: 15px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="4" viewBox="0 0 16 4" fill="none">
+                            <circle cx="1.9541" cy="2" r="1.5" fill="white"/>
+                            <circle cx="8.16504" cy="2" r="1.5" fill="white"/>
+                            <circle cx="14.376" cy="2" r="1.5" fill="white"/>
+                          </svg>
+                      </div>
+                </div>
+            <!-- </div> -->
+
+
+            </div>
+          </a>
+
+          <a href="">
+            <div class="song song1">
+
+                <div style="display: flex;     align-items: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="14" viewBox="0 0 10 14" fill="none">
+                    <path d="M9.60205 7.04145L0.19764 13.1395L0.19764 0.943375L9.60205 7.04145Z" fill="white"/>
+                  </svg>
+
+                  <div class="s1bg">
+                    <img style="width: 100%;
+                    height: 100%;" src="./s1.jpg" alt="">
+                  </div>
+
+                  <div class="songinfo">
+                    <p class="sn">We're Good</p>
+                    <p class="an">Dua Lipa</p>
+                  </div>
+
+                </div>
+
+
+                  <!-- <div style="display: flex;">  -->
+                <div class="publ">
+                    <p>Future Nostalgia (The Moonlight Edition)</p>
+                </div>
+
+                <div class="han">
+                    <span>일 전</span>
+                </div>
+
+                <div class="dur">
+                    <svg style="    position: relative;
+                    right: 10px;" xmlns="http://www.w3.org/2000/svg" width="22" height="24" viewBox="0 0 22 24" fill="none">
+                        <path opacity="0.7" d="M11.226 6.04065C9.65803 4.87082 7.46757 5.03618 6.09298 6.42813V6.42813C4.58531 7.95484 4.58531 10.41 6.09298 11.9367L6.79076 12.6433L6.78486 12.6493L11.9026 17.8317V17.8317C11.9059 17.8284 11.9112 17.8284 11.9144 17.8317V17.8317L17.0322 12.6493L17.0263 12.6433L17.724 11.9367C19.2317 10.41 19.2317 7.95484 17.7241 6.42813V6.42813C16.3495 5.03618 14.159 4.87082 12.591 6.04065L11.9085 6.54984L11.226 6.04065Z" stroke="white" stroke-linejoin="round"/>
+                      </svg>
+                      <span style="    position: relative;
+                      left: 5px;">2:45</span>
+                      <div class="dot" style="    position: relative;
+                      left: 15px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="4" viewBox="0 0 16 4" fill="none">
+                            <circle cx="1.9541" cy="2" r="1.5" fill="white"/>
+                            <circle cx="8.16504" cy="2" r="1.5" fill="white"/>
+                            <circle cx="14.376" cy="2" r="1.5" fill="white"/>
+                          </svg>
+                      </div>
+                </div>
+            <!-- </div> -->
+
+
+            </div>
+          </a>
+
+          <a href="">
+            <div class="song song1">
+
+                <div style="display: flex;     align-items: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="14" viewBox="0 0 10 14" fill="none">
+                    <path d="M9.60205 7.04145L0.19764 13.1395L0.19764 0.943375L9.60205 7.04145Z" fill="white"/>
+                  </svg>
+
+                  <div class="s1bg">
+                    <img style="width: 100%;
+                    height: 100%;" src="./s1.jpg" alt="">
+                  </div>
+
+                  <div class="songinfo">
+                    <p class="sn">We're Good</p>
+                    <p class="an">Dua Lipa</p>
+                  </div>
+
+                </div>
+
+
+                  <!-- <div style="display: flex;">  -->
+                <div class="publ">
+                    <p>Future Nostalgia (The Moonlight Edition)</p>
+                </div>
+
+                <div class="han">
+                    <span>일 전</span>
+                </div>
+
+                <div class="dur">
+                    <svg style="    position: relative;
+                    right: 10px;" xmlns="http://www.w3.org/2000/svg" width="22" height="24" viewBox="0 0 22 24" fill="none">
+                        <path opacity="0.7" d="M11.226 6.04065C9.65803 4.87082 7.46757 5.03618 6.09298 6.42813V6.42813C4.58531 7.95484 4.58531 10.41 6.09298 11.9367L6.79076 12.6433L6.78486 12.6493L11.9026 17.8317V17.8317C11.9059 17.8284 11.9112 17.8284 11.9144 17.8317V17.8317L17.0322 12.6493L17.0263 12.6433L17.724 11.9367C19.2317 10.41 19.2317 7.95484 17.7241 6.42813V6.42813C16.3495 5.03618 14.159 4.87082 12.591 6.04065L11.9085 6.54984L11.226 6.04065Z" stroke="white" stroke-linejoin="round"/>
+                      </svg>
+                      <span style="    position: relative;
+                      left: 5px;">2:45</span>
+                      <div class="dot" style="    position: relative;
+                      left: 15px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="4" viewBox="0 0 16 4" fill="none">
+                            <circle cx="1.9541" cy="2" r="1.5" fill="white"/>
+                            <circle cx="8.16504" cy="2" r="1.5" fill="white"/>
+                            <circle cx="14.376" cy="2" r="1.5" fill="white"/>
+                          </svg>
+                      </div>
+                </div>
+            <!-- </div> -->
+
+
+            </div>
+          </a>
+
+          <a href="">
+            <div class="song song1">
+
+                <div style="display: flex;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="14" viewBox="0 0 10 14" fill="none">
+                    <path d="M9.60205 7.04145L0.19764 13.1395L0.19764 0.943375L9.60205 7.04145Z" fill="white"/>
+                  </svg>
+
+                  <div class="s1bg">
+                    <img style="width: 100%;
+                    height: 100%;" src="./s1.jpg" alt="">
+                  </div>
+
+                  <div class="songinfo">
+                    <p class="sn">We're Good</p>
+                    <p class="an">Dua Lipa</p>
+                  </div>
+
+                </div>
+
+
+                  <!-- <div style="display: flex;">  -->
+                <div class="publ">
+                    <p>Future Nostalgia (The Moonlight Edition)</p>
+                </div>
+
+                <div class="han">
+                    <span>일 전</span>
+                </div>
+
+                <div class="dur">
+                    <svg style="    position: relative;
+                    right: 10px;" xmlns="http://www.w3.org/2000/svg" width="22" height="24" viewBox="0 0 22 24" fill="none">
+                        <path opacity="0.7" d="M11.226 6.04065C9.65803 4.87082 7.46757 5.03618 6.09298 6.42813V6.42813C4.58531 7.95484 4.58531 10.41 6.09298 11.9367L6.79076 12.6433L6.78486 12.6493L11.9026 17.8317V17.8317C11.9059 17.8284 11.9112 17.8284 11.9144 17.8317V17.8317L17.0322 12.6493L17.0263 12.6433L17.724 11.9367C19.2317 10.41 19.2317 7.95484 17.7241 6.42813V6.42813C16.3495 5.03618 14.159 4.87082 12.591 6.04065L11.9085 6.54984L11.226 6.04065Z" stroke="white" stroke-linejoin="round"/>
+                      </svg>
+                      <span style="    position: relative;
+                      left: 5px;">2:45</span>
+                      <div class="dot" style="    position: relative;
+                      left: 15px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="4" viewBox="0 0 16 4" fill="none">
+                            <circle cx="1.9541" cy="2" r="1.5" fill="white"/>
+                            <circle cx="8.16504" cy="2" r="1.5" fill="white"/>
+                            <circle cx="14.376" cy="2" r="1.5" fill="white"/>
+                          </svg>
+                      </div>
+                </div>
+            <!-- </div> -->
+
+
+            </div>
+          </a>
+
+ 
+
+
+ </div>
+     
+
+
+    </div>
+
+
+</div>
+
+
+<div class="footer">
+
+    <div class="ft1">
+
+        <div class="s1bg">
+            <img style="width: 100%;
+            height: 100%;" src="./s1.jpg" alt="">
+          </div>
+
+          <div style="display: flex; align-items: center;width: 200px;justify-content: space-around;">
+        <div class="songdet">
+            <p class="j1">Hold On</p>
+            <p class="j2">Justin Bieber</p>
+
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path opacity="0.7" d="M10.853 6.04065C9.28499 4.87082 7.09453 5.03618 5.71993 6.42813V6.42813C4.21226 7.95484 4.21226 10.41 5.71993 11.9367L6.41771 12.6433L6.41181 12.6493L11.5296 17.8317V17.8317C11.5328 17.8284 11.5381 17.8284 11.5413 17.8317V17.8317L16.6591 12.6493L16.6532 12.6433L17.351 11.9367C18.8587 10.41 18.8587 7.95484 17.351 6.42813V6.42813C15.9764 5.03618 13.7859 4.87082 12.218 6.04065L11.5355 6.54984L10.853 6.04065Z" stroke="white" stroke-linejoin="round"/>
+          </svg>
+          <svg style="    position: relative;
+          right: 20px;" xmlns="http://www.w3.org/2000/svg" width="18" height="14" viewBox="0 0 18 14" fill="none">
+            <g opacity="0.5">
+              <rect x="1" y="1" width="16" height="12" stroke="white" stroke-linejoin="round"/>
+              <rect x="1" y="11" width="16" height="2" fill="white"/>
+              <rect x="11" y="7" width="4" height="3" fill="white"/>
+            </g>
+          </svg>
+        </div>
+    </div>
+
+    <div class="ft2">
+        <div class="mybtn">
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <path d="M12.8952 14.0134L13.6526 13.1478C12.4624 11.7413 10.7312 10.9839 9 10.9839V12.0658C10.4066 12.0658 11.8132 12.715 12.787 13.797L12.8952 14.0134ZM21.0102 19.0988C19.7118 19.0988 18.5216 18.5578 17.5478 17.6922L16.8986 18.5578C17.9806 19.6398 19.4954 20.1808 21.0102 20.1808V21.8038L24.7972 19.6398L21.0102 17.4758V19.0988ZM21.0102 12.6068V14.2298L24.7972 12.0658L21.0102 9.90186V11.5249C19.279 11.5249 17.5478 12.2822 16.4658 13.6888L12.787 17.9086C11.8132 18.9906 10.4066 19.6398 9 19.6398V20.7218C10.7312 20.7218 12.4624 19.9644 13.5444 18.5578L17.2232 14.338C18.197 13.256 19.6036 12.6068 21.0102 12.6068Z" fill="white"/>
+                  </svg>
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <path d="M21.82 10L13.164 14.9977V10.541H11V21.361H13.164V16.9042L21.82 21.902V10Z" fill="white"/>
+                  </svg>
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                    <path d="M0 17C0 7.61116 7.61116 0 17 0C26.3888 0 34 7.61116 34 17C34 26.3888 26.3888 34 17 34C7.61116 34 0 26.3888 0 17Z" fill="white"/>
+                    <path d="M12.7695 23.3748L23.811 16.9998L12.7695 10.6248V23.3748Z" fill="black"/>
+                  </svg>
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <path d="M19.656 10.5365V14.9565L11 10V21.8036L19.656 16.8472V21.2671H21.82V10.5365H19.656Z" fill="white"/>
+                  </svg>
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <path d="M12.869 12.705H17.738V14.328L21.525 12.164L17.738 10V11.623H12.869C10.164 11.623 8 13.787 8 16.492C8 17.1412 8.1082 17.7904 8.4328 18.4396L9.4066 17.8986C9.1902 17.4658 9.082 17.033 9.082 16.492C9.082 14.4362 10.8132 12.705 12.869 12.705ZM22.7152 14.5444L21.7414 15.0854C21.9578 15.5182 22.066 15.951 22.066 16.492C22.066 18.5478 20.3348 20.279 18.279 20.279H13.41V18.656L9.623 20.82L13.41 22.984V21.361H18.279C20.984 21.361 23.148 19.197 23.148 16.492C23.148 15.8428 23.0398 15.1936 22.7152 14.5444Z" fill="white"/>
+                  </svg>
+            </div>
+        </div>
+
+        <div class="myrng" style="width: 500px; align-items: center; display: flex;">
+           <span style="color: #B3B3B3;
+           text-align: center;
+           font-size: 12.504px;
+           font-style: normal;">0:00</span>
+            <div class="hrln"></div>
+            <span style="color: #B3B3B3;
+            text-align: center;
+            font-size: 12.504px;
+            font-style: normal;">2:50</span>
+        </div>
+    </div>
+
+    <div class="ft3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="32" viewBox="0 0 30 32" fill="none">
+            <path d="M9.73438 19H25.9259V21H9.73438V19Z" fill="#C4C4C4"/>
+            <path d="M17.8301 14H25.9259V16H17.8301V14Z" fill="#C4C4C4"/>
+            <path d="M9.73438 24H25.9259V26H9.73438V24Z" fill="#C4C4C4"/>
+            <path d="M9.73438 9L15.1316 13.5L9.73438 18V9Z" fill="#C4C4C4"/>
+          </svg>
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+            <path d="M12.6922 2.24988C12.6922 1.17088 11.5462 0.599884 10.8212 1.31588L6.77958 5.30888C6.65622 5.43106 6.49683 5.49866 6.33161 5.49888H3.02224C2.48545 5.49888 1.97065 5.73594 1.59109 6.15789C1.21153 6.57985 0.998291 7.15215 0.998291 7.74888V12.2459C0.998291 12.8426 1.21153 13.4149 1.59109 13.8369C1.97065 14.2588 2.48545 14.4959 3.02224 14.4959H6.33251C6.49772 14.4961 6.65712 14.5637 6.78048 14.6859L10.8203 18.6799C11.5453 19.3959 12.6922 18.8239 12.6922 17.7459V2.24988ZM7.67731 6.42988L11.3429 2.80688V17.1889L7.67731 13.5649C7.30687 13.1985 6.82834 12.996 6.33251 12.9959H3.02224C2.84331 12.9959 2.67171 12.9169 2.54519 12.7762C2.41867 12.6356 2.34759 12.4448 2.34759 12.2459V7.74988C2.34759 7.55097 2.41867 7.36021 2.54519 7.21955C2.67171 7.0789 2.84331 6.99988 3.02224 6.99988H6.33251C6.82834 6.99974 7.30687 6.79727 7.67731 6.43088V6.42988Z" fill="#B3B3B3"/>
+            <path d="M16.2832 3.89678C16.3545 3.83821 16.4354 3.79581 16.5214 3.772C16.6073 3.74819 16.6967 3.74344 16.7843 3.75802C16.8719 3.7726 16.9561 3.80622 17.032 3.85697C17.108 3.90771 17.1742 3.97459 17.2269 4.05378C18.3739 5.77367 18.9919 7.85873 18.989 9.99978C18.9915 12.1409 18.3733 14.226 17.226 15.9458C17.1173 16.0985 16.9594 16.1983 16.7857 16.2239C16.6121 16.2496 16.4363 16.1991 16.2955 16.0833C16.1546 15.9674 16.0599 15.7952 16.0313 15.6031C16.0026 15.4109 16.0424 15.2139 16.142 15.0538C17.1173 13.5921 17.6425 11.8197 17.6397 9.99978C17.6425 8.17987 17.1173 6.40747 16.142 4.94578C16.0893 4.86659 16.0512 4.77664 16.0298 4.68107C16.0084 4.5855 16.0041 4.48617 16.0172 4.38876C16.0303 4.29135 16.0606 4.19777 16.1062 4.11335C16.1519 4.02894 16.212 3.95535 16.2832 3.89678Z" fill="#B3B3B3"/>
+            <path d="M14.6198 6.36978C14.6977 6.32281 14.7832 6.29336 14.8713 6.28312C14.9595 6.27287 15.0486 6.28204 15.1335 6.31008C15.2185 6.33813 15.2976 6.3845 15.3665 6.44657C15.4353 6.50863 15.4924 6.58515 15.5347 6.67178C16.0168 7.66178 16.2903 8.79678 16.2903 9.99978C16.2918 11.1618 16.032 12.3058 15.5347 13.3278C15.4495 13.5028 15.3053 13.6331 15.1337 13.6899C14.9621 13.7467 14.7773 13.7255 14.6198 13.6308C14.4624 13.5361 14.3452 13.3758 14.2941 13.185C14.243 12.9943 14.2621 12.7888 14.3473 12.6138C14.7251 11.8368 14.941 10.9478 14.941 9.99978C14.941 9.05178 14.7251 8.16278 14.3473 7.38578C14.3051 7.29911 14.2786 7.20405 14.2695 7.10603C14.2603 7.008 14.2686 6.90893 14.294 6.81448C14.3193 6.72003 14.3611 6.63205 14.417 6.55557C14.4729 6.4791 14.5418 6.41562 14.6198 6.36878V6.36978Z" fill="#B3B3B3"/>
+          </svg>
+
+          <img style="width: 50px;" src="./br.svg" alt="">
+    </div>
+</div>
+
+
+
+</body>
+</html>
